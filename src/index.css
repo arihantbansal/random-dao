@@ -4,7 +4,12 @@ body {
 	font-family: Inter, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #7700ee;
+	background-image: radial-gradient(
+		circle,
+		#27134d 0%,
+		#080028 100%
+	) !important;
+	background-position: right !important;
 	color: #fff;
 	overflow-x: hidden;
 }
